@@ -1,7 +1,7 @@
 # Use lightweight nginx image
 FROM nginx:alpine
 
-# Remove default nginx content
+# Remove default nginx contents
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy dist folder into nginx html directory
